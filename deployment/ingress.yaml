@@ -20,7 +20,7 @@ spec:
             name: historia-svc
             port:
               number: 80
-  - host: www.espiraldetiempomarinilla.com
+  - host: www.espiraldetiempomarinilla.com.co
     http:
       paths:
       - path: /
@@ -35,5 +35,5 @@ spec:
     - espiraldetiempomarinilla.com.co
     secretName: historia-com-co
   - hosts:
-    - www.espiraldetiempomarinilla.com
+    - www.espiraldetiempomarinilla.com.co
     secretName: historia-www-com-co
